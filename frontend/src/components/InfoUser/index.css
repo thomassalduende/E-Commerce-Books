@@ -1,0 +1,33 @@
+.info-user {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 50px;
+}
+
+.info-user p {
+  display: flex;
+  align-items: center;
+}
+
+.info-user p span {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.rec-button {
+  background-color:rgb(140, 140, 245);
+  border-radius: 5px;
+  margin-top: -100px;
+  width: 30%;
+  height: 40px;
+  margin-left: 35%;
+}
+
+@media only screen and  ((min-width: 350px) and (max-width: 1024px)) {
+  .rec-button {
+    width: 50%;
+    height: 40px;
+    margin-left: 25%;
+  }
+}

@@ -1,0 +1,46 @@
+.filters {
+  margin-top: 80px;
+  margin-left: 12%;
+  
+}
+
+.filters button {
+  background-color:#6672a1;
+  width: 10%;
+  margin-right: 50px;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+.filters button:hover {
+  background-color:#b7c0e2;
+}
+
+.filters span {
+  margin-right: 80px;
+}
+
+.filters label{
+  font-weight: bold;
+}
+
+
+@media only screen and  ((min-width: 350px) and (max-width: 1024px)) {
+  .filters {
+    margin-top: 70px;
+    margin-left: 12%;
+    width: 90%;
+  }
+  
+  .filters button {
+    background-color:#6672a1;
+    width: 30%;
+  }
+  .filters button:hover {
+    background-color:#b7c0e2;
+  }
+  
+  .filters span {
+    margin-right: 80px;
+  }
+
+}

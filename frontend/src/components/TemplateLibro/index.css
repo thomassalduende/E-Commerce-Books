@@ -1,0 +1,161 @@
+
+.book {
+  margin-top: 60px;
+  margin-left: 25%;
+  display: flex;
+  width: 60%;
+}
+
+.comentarios {
+  display: grid;
+}
+.comentarios strong{
+ margin-bottom: 20px;
+ margin-left: 25%;
+ font-size: 1.3em;
+}
+
+
+.book img{
+  width: 35%;
+  height: 65%;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.book-info {
+  margin-left: 90px;
+}
+.book-info h3 {
+  font-size: 2em;
+}
+strong {
+  font-size: 1.3em;
+}
+
+.autor{
+  justify-content: start;
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+
+.data {
+  background-color: red;
+}
+
+hr{
+  margin-top: 70px;
+}
+.book-info p{
+  justify-content: start;
+}
+.price {
+  margin-top: 70px;
+  justify-content: start;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.button {
+  background-color: rgb(140, 140, 245);
+  border-radius: 5px;
+  width: 60%;
+  height: 4.5%;
+}
+
+.button:hover {
+  background-color: rgb(113, 113, 220);
+}
+
+.input-cantidad {
+  margin-left: 30px;
+  text-align: center;
+}
+
+.favoritos-button {
+  margin-left: 400px;
+  background-color: transparent;
+  border: none;
+}
+
+
+@media only screen and  ((min-width: 350px) and (max-width: 1024px)) {
+
+  .book {
+    margin-top: 60px;
+    margin-left: 15%;
+    display: grid;
+    width: 60%;
+  }
+  
+  .book img{
+    width: 300px;
+    height: 450px;
+    
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.7);
+  }
+  
+  .book-info {
+    margin-left: -35px;
+  }
+
+  .decripcion{
+    width: 100%;
+  }
+
+  .book-info h3 {
+    font-size: 2em;
+  }
+  strong {
+    font-size: 1.3em;
+  }
+  
+  .autor{
+    justify-content: start;
+    margin-top: 20px;
+    font-size: 1.2em;
+  }
+  
+  .data {
+    background-color: red;
+  }
+  
+  hr{
+    margin-top: 50px;
+  }
+  p{
+    justify-content: start;
+
+  }
+  .price {
+    margin-top: 70px;
+    justify-content: start;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .button {
+    background-color: rgb(140, 140, 245);
+    border-radius: 5px;
+    width: 60%;
+    height: 4.5%;
+    /* margin-left: -300px; */
+  }
+  
+  .button:hover {
+    background-color: rgb(113, 113, 220);
+  }
+  
+  .input {
+    margin-left: 30px;
+    text-align: center;
+  }
+  
+  .favoritos-button {
+    margin-left: 300px;
+    margin-top: 20px;
+    background-color: transparent;
+    border: none;
+  }
+  
+}
+

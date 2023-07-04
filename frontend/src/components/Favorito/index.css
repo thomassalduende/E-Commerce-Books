@@ -1,0 +1,55 @@
+.card {
+  width: 270px;
+  height: 390px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 20px;
+  transform: all 0.25s;
+  background-color: #faf9f9;
+  margin-top: 70px;
+}
+
+.name{
+  font-size:1em;
+  text-overflow: clip;
+  margin-left: 10px;
+  margin-top: 5px;
+  font-weight: bold;
+}
+.card-data strong {
+  width:100px;
+
+}
+
+
+.card:hover {
+  border: 1px solid black;
+  transform: scale(1);
+  cursor: pointer;
+}
+
+.card:active {
+  transform: scale(0.95) rotateZ(1.7deg);
+}
+
+.card img {
+  width: 70%;
+  height: 270px;
+  margin-left: 17%;
+  margin-top: 5px;
+  object-fit: cover;
+}  
+
+.card h3 {
+  font-size: 1em;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.card strong, p {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+

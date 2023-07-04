@@ -1,0 +1,47 @@
+.tarjeta {
+  width: 270px;
+  height: 390px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 20px;
+  background-color: #faf9f9;
+  margin-top: 70px;
+  white-space: nowrap;
+}
+
+.name{
+  font-size:1em;
+  text-overflow: clip;
+  margin-left: 10px;
+  margin-top: 5px;
+  font-weight: bold;
+}
+.tarjeta-data strong {
+  width:100px;
+
+}
+.tarjeta-data-autor{
+  margin-left: 20px;
+}
+
+
+.tarjeta img {
+  width: 70%;
+  height: 270px;
+  margin-left: 17%;
+  margin-top: 5px;
+  object-fit: cover;
+}  
+
+.tarjeta h3 {
+  font-size: 1em;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.tarjeta strong, p {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}

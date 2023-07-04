@@ -1,0 +1,120 @@
+
+ul {
+  margin: 0;
+  padding: 0 0 56px 0;
+  list-style: none;
+}
+.add-comentarios {
+  border: none;
+}
+.cont-comentarios {
+  border: solid 1px;
+  width: 50%;
+  margin-left: 25%;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 35px;
+}
+
+#button-enviar {
+  margin-bottom: 10px;
+  margin-left: 85%;
+  width: 14%;
+  height: 30px;
+  background-color: rgb(222, 104, 220);
+  border-radius: 5px;
+  border-color: rgb(255, 107, 253);
+
+}
+
+.button-cancelar {
+  margin-left: 90%;
+  background-color: transparent;
+  width: 60px;
+  border: none;
+}
+
+.button-editar {
+  margin-left: 90%;
+  margin-top: 13px;
+  background-color: transparent;
+  width: 60px;
+  border: 1px solid;
+}
+
+
+
+.cont-comentarios p {
+  font-size: 1.2em;
+  font-family: 'Inter';
+  font-style: normal;
+  color: black;
+  text-align: center;
+  margin-top: -30px;
+  
+}
+.cont-comentarios h5 {
+  margin: 10px;
+}
+.icono{
+
+  height: 48px;
+  width: 48px;
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  /* background-color: #CCC; */
+}
+
+.icono-check {
+  position: absolute;
+  left: 12px;
+}
+
+@media only screen and  ((min-width: 350px) and (max-width: 1024px)) {
+  .add-comentarios {
+    border: none;
+  }
+  .cont-comentarios {
+    border: solid 1px;
+    width: 90%;
+    margin-left: 6%;
+    border-radius: 5px;
+    margin-bottom: 35px;
+  }
+
+  .cont-comentarios h5 {
+    font-size: 1em;
+  }
+  
+  #button-enviar {
+    margin-bottom: 10px;
+    margin-left: 85%;
+    width: 14%;
+    height: 30px;
+    background-color: rgb(222, 104, 220);
+    border-radius: 5px;
+    border-color: rgb(255, 107, 253);
+  
+  }
+  
+  .button-editar {
+    background-color: transparent;
+    width: 60px;
+    margin-left: 80%;
+    border: 1px solid;
+  }
+  
+  .cont-comentarios p {
+    font-size: 1.2em;
+    font-family: 'Inter';
+    font-style: normal;
+    color: black;
+    text-align: center;
+    margin-top: 2px;
+  }
+
+ 
+
+}
+

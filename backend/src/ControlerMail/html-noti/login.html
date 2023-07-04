@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Inicio de sesión</title>
+    <style>
+      body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f9f9f9;
+      }
+
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .login {
+        width: 400px;
+        margin: 0 50px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+      }
+
+      .header {
+        padding: 30px;
+        text-align: center;
+        background-color: #1abc9c;
+        color: #fff;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+      }
+
+      .header h1 {
+        margin: 0;
+        font-size: 28px;
+        font-weight: normal;
+      }
+
+      .form {
+        padding: 20px 30px;
+      }
+
+      .form label {
+        display: block;
+        margin-bottom: 10px;
+        font-size: 18px;
+        color: #555;
+      }
+
+      .form input[type="text"],
+      .form input[type="password"] {
+        padding: 10px;
+        width: 100%;
+        border-radius: 3px;
+        border: 1px solid #ccc;
+        font-size: 16px;
+        margin-bottom: 20px;
+      }
+
+      .form input[type="submit"] {
+        background-color: #1abc9c;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 3px;
+        border: none;
+        cursor: pointer;
+        font-size: 18px;
+        transition: background-color 0.3s ease;
+      }
+
+      .form input[type="submit"]:hover {
+        background-color: #16a085;
+      }
+
+      .google-btn {
+        display: block;
+        background-color: #dd4b39;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 3px;
+        border: none;
+        font-size: 18px;
+        margin: 20px auto 0;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        position: relative;
+      }
+
+      .google-btn:hover {
+        background-color: #e74b37;
+      }
+
+      .google-btn:before {
+        content: "";
+        background-image: url("https://img.icons8.com/color/48/000000/google-logo.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 24px;
+        height: 24px;
+        position: absolute;
+        left: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="login">
+        <div class="header">
+          <h1>Iniciar sesión</h1>
+        </div>
+        <div class="form">
+          <label for="username">Nombre de usuario:</label>
+          <input type="text"
+          <label for="password">Contraseña:</label>
+          <input type="password" name="password">
+          <input type="submit" value="Iniciar sesión">
+        </div>
+      </div>
+
+      <div class="login">
+        <div class="header">
+          <h1>Registrarse</h1>
+        </div>
+        <div class="form">
+          <label for="name">Nombre completo:</label>
+          <input type="text" name="name">
+          <label for="email">Correo electrónico:</label>
+          <input type="text" name="email">
+          <label for="password">Contraseña:</label>
+          <input type="password" name="password">
+          <input type="submit" value="Registrarse">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

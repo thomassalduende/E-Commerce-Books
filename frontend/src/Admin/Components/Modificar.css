@@ -1,0 +1,72 @@
+.Information {
+  width: 50%;
+  margin-top: 6%;
+  margin-left: 25%;
+}
+
+
+
+.Information h5 {
+  display: grid;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+
+
+
+.Information input {
+  background-color: white;
+  border-radius: 8px;
+  border: 1px solid rgb(165, 157, 157);
+  color: rgba(0,0,0,0.75);
+  font-feature-settings: "tnum";
+  font-size: 14px;
+  height: 42px;
+  line-height: 32px;
+  list-style: none;
+  margin: 0 0 10px 0;
+  padding: 4px 12px;
+  width: 100%;
+  box-sizing: border-box;
+
+}
+.Information textarea {
+  background-color: white;
+  border-radius: 8px;
+  border: 1px solid rgb(165, 157, 157);
+  color: rgba(0,0,0,0.75);
+  font-feature-settings: "tnum";
+  font-size: 14px;
+  height: 42px;
+  line-height: 32px;
+  list-style: none;
+  margin: 0 0 10px 0;
+  padding: 4px 12px;
+  width: 100%;
+  box-sizing: border-box;
+
+}
+.button-guardar {
+  margin-left: 60%;
+  background-color: rgb(166, 42, 164);
+}
+
+.button-cancel {
+  margin-left: 30px;
+  background-color: rgb(166, 42, 164);
+}
+
+@media only screen and  ((min-width: 350px) and (max-width: 1024px)) {
+  .button-guardar {
+    margin-left: 60%;
+    background-color: rgb(166, 42, 164);
+    margin-bottom: -200px;
+  }
+  
+  .button-cancel {
+    margin-top: -100px;
+    margin-left: 30px;
+    background-color: rgb(166, 42, 164);
+  }
+}

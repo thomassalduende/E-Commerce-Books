@@ -1,0 +1,10 @@
+.container {
+  display: grid;
+  width: 80%;
+  grid-template-columns: repeat(auto-fit,minmax(260px, 1fr));
+  height: 100vh;
+}
+
+.vh {
+  height: 50vh;
+}

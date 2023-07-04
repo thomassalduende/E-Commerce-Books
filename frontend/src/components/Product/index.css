@@ -1,0 +1,69 @@
+.cards {
+  width: 270px;
+  height: 400px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 20px;
+  transform: all 0.25s;
+  background-color: #faf9f9;
+  margin-top: 25px;
+}
+
+.names{
+  font-size:0.9em;
+  text-overflow: clip;
+  margin-left: 10px;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.data-autor{
+  font-size: 0.8em;
+  margin-bottom: -1px;
+  margin-top: -10px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.cards:hover {
+  border: 1px solid black;
+  transform: scale(1);
+  cursor: pointer;
+}
+
+.cards:active {
+  transform: scale(0.95) rotateZ(1.7deg);
+}
+
+.cards img {
+  width: 65%;
+  height: 260px;
+  margin-left: 17%;
+  margin-top: 5px;
+  object-fit: cover;
+}  
+
+.cards h3 {
+  font-size: 1em;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+
+.precio-tachado {
+  text-decoration: line-through;
+}
+.precio-descuento{
+  margin-top: -15px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.precio-original {
+  display: grid;
+  justify-content: center;
+  margin-top: 10px;
+}
